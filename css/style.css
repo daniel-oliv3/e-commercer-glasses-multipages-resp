@@ -44,6 +44,9 @@ html {
   position: relative;
   float: left;
 }
+.header .navbar ul li:hover ul {
+  display: block;
+}
 .header .navbar ul li a {
   font-size: 1.7rem;
   color: #666;
@@ -52,6 +55,27 @@ html {
 }
 .header .navbar ul li a:hover {
   background: #eee;
+}
+.header .navbar ul li ul {
+  position: absolute;
+  left: 0;
+  width: 20rem;
+  background: #fff;
+  display: none;
+}
+.header .navbar ul li ul li {
+  width: 100%;
+}
+.header .icons div,
+.header .icons a {
+  font-size: 2.5rem;
+  color: #333;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+.header .icons div:hover,
+.header .icons a:hover {
+  color: #e84393;
 }
 
 /*# sourceMappingURL=style.css.map */
