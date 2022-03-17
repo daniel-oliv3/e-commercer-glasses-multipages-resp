@@ -103,9 +103,24 @@ html {
             color: $pink;
         }
     }
+
+    /*Search form */
+    .search-form {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        border-top: $border;
+        background: $white;
+        height: 6rem;
+        align-items: center;
+        padding: 2rem;
+    }
 }
 
-
+#menu-btn {
+    display: none;
+}
 
 
 

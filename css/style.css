@@ -30,6 +30,7 @@ html {
   display: flex;
   align-items: center;
   padding: 0 9%;
+  /*Search form */
 }
 .header .logo {
   font-size: 2.5rem;
@@ -76,6 +77,21 @@ html {
 .header .icons div:hover,
 .header .icons a:hover {
   color: #e84393;
+}
+.header .search-form {
+  position: absolute;
+  top: 99%;
+  left: 0;
+  right: 0;
+  border-top: 0.2rem solid #333;
+  background: #fff;
+  height: 6rem;
+  align-items: center;
+  padding: 2rem;
+}
+
+#menu-btn {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
