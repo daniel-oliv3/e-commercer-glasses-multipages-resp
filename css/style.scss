@@ -34,57 +34,55 @@ html {
 
 
 /* ======= Header Section/Seção de cabeçalho ======= */
-.header {
+.header{
     position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
+    top:0; left:0; right:0;
     z-index: 1000;
     background: $white;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     display: flex;
     align-items: center;
-    padding: 0 9%;
+    padding:0 9%;
 
-    .logo {
+    .logo{
         font-size: 2.5rem;
-        color: $black;
+        color:$black;
         font-weight: bolder;
         margin-right: auto;
     }
 
-    .navbar {
+    .navbar{
 
-        ul {
+        ul{
             list-style: none;
 
-            li {
+            li{
                 position: relative;
                 float: left;
 
-                &:hover ul {
+                &:hover ul{
                     display: block;
                 }
 
-                a {
+                a{
                     font-size: 1.7rem;
-                    color: $light-color;
-                    padding: 2rem;
+                    color:$light-color;
+                    padding:2rem;
                     display: block;
 
-                    &:hover {
+                    &:hover{
                         background: $light-bg;
                     }
                 }
 
-                ul {
+                ul{
                     position: absolute;
-                    left: 0;
+                    left:0;
                     width: 20rem;
                     background: $white;
                     display: none;
 
-                    li {
+                    li{
                         width: 100%;
                     }
                 }
@@ -93,50 +91,54 @@ html {
     }
 
     .icons div,
-    .icons a {
+    .icons a{
         font-size: 2.5rem;
-        color: $black;
+        color:$black;
         cursor: pointer;
         margin-left: 2rem;
 
-        &:hover {
-            color: $pink;
+        &:hover{
+            color:$pink;
         }
     }
 
-    /*Search form */
-    .search-form {
+    .search-form{
         position: absolute;
-        top: 99%;
-        left: 0;
-        right: 0;
+        top:99%; left:0; right:0;
         border-top: $border;
         background: $white;
         height: 6rem;
+        display: flex;
         align-items: center;
-        padding: 2rem;
+        padding:2rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 
-        input {
+        &.active{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+
+        input{
             width: 100%;
             height: 100%;
-            padding-right: 1.7rem;
-            color: $light-color;
+            padding-right: 1rem;
+            font-size: 1.7rem;
+            color:$light-color;
             text-transform: none;
         }
 
-        label {
+        label{
             font-size: 2.5rem;
-            color: $black;
+            color:$black;
             cursor: pointer;
 
-            &:hover {
-                color: $pink;
+            &:hover{
+                color:$pink;
             }
         }
     }
 }
 
-#menu-btn {
+#menu-btn{
     display: none;
 }
 
