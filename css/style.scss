@@ -36,6 +36,23 @@ section {
     padding: 2rem 9%;
 }
 
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 2.8rem;
+    font-size: 1.7rem;
+    color: $black;
+    border: $border;
+    background: none;
+    border-radius: .5rem;
+    cursor: pointer;
+
+    &:hover {
+        background: $black;
+        color: $white;
+    }
+}
+
 
 /* ======= Header Section/Seção de cabeçalho ======= */
 .header{
@@ -187,6 +204,36 @@ section {
                     padding-right: .5rem;
                 }
             }
+
+            p {
+                font-size: 1.5rem;
+                color: $light-color;
+                margin-bottom: 1rem;
+            }
+
+            form input[type="email"]{
+                width: 100%;
+                padding: 1rem 1.2rem;
+                border-radius: .5rem;
+                background: $light-bg;
+                font-size: 1.6rem;
+                text-transform: none;
+                margin: .5rem 0;
+            }
+        }
+    }
+
+    .credits {
+        text-align: center;
+        padding: 1rem;
+        padding-top: 2.5rem;
+        margin-top: 2.5rem;
+        font-size: 2rem;
+        color: $light-color;
+        border-top: $border;
+
+        span {
+            color: $pink;
         }
     }
 }

@@ -22,6 +22,22 @@ section {
   padding: 2rem 9%;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 2.8rem;
+  font-size: 1.7rem;
+  color: #333;
+  border: 0.2rem solid #333;
+  background: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #333;
+  color: #fff;
+}
+
 /* ======= Header Section/Seção de cabeçalho ======= */
 .header {
   position: sticky;
@@ -144,6 +160,32 @@ section {
 .footer .box-container .box a i {
   color: #e84393;
   padding-right: 0.5rem;
+}
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+.footer .box-container .box form input[type=email] {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  border-radius: 0.5rem;
+  background: #eee;
+  font-size: 1.6rem;
+  text-transform: none;
+  margin: 0.5rem 0;
+}
+.footer .credits {
+  text-align: center;
+  padding: 1rem;
+  padding-top: 2.5rem;
+  margin-top: 2.5rem;
+  font-size: 2rem;
+  color: #666;
+  border-top: 0.2rem solid #333;
+}
+.footer .credits span {
+  color: #e84393;
 }
 
 /*Media queries Responsividade*/
