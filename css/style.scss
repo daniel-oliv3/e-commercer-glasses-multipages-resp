@@ -244,6 +244,50 @@ section {
 
 
 
+/* ======= Banner Section/Seção Banner ======= */
+.banner {
+    @include grid(31rem);
+
+    .box {
+        position: relative;
+        height: 30rem;
+        overflow: hidden;
+        border-radius: .5rem;
+
+        &:hover img {
+            transform: scale(1.1);
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            right: 2rem;
+            transform: translateY(-50%);
+
+            span {
+                font-size: 1.5rem;
+                color: $black;
+            }
+
+            h3 {
+                font-size: 1.7rem;
+                color: $black;
+                padding-top: 1rem;
+            }
+
+            .btn {
+                padding: .6rem 2rem;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
 
 
 /* ======= Footer Section/Seção de rodapé ======= */

@@ -199,6 +199,46 @@ section {
   right: 9rem;
 }
 
+/* ======= Banner Section/Seção Banner ======= */
+.banner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 1.5rem;
+}
+.banner .box {
+  position: relative;
+  height: 30rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.banner .box:hover img {
+  transform: scale(1.1);
+}
+.banner .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.banner .box .content {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+}
+.banner .box .content span {
+  font-size: 1.5rem;
+  color: #333;
+}
+.banner .box .content h3 {
+  font-size: 1.7rem;
+  color: #333;
+  padding-top: 1rem;
+}
+.banner .box .content .btn {
+  padding: 0.6rem 2rem;
+  font-size: 1.5rem;
+}
+
 /* ======= Footer Section/Seção de rodapé ======= */
 .footer .box-container {
   display: grid;
