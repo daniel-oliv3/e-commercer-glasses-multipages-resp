@@ -54,6 +54,7 @@ section {
 }
 
 
+
 /* ======= Header Section/Seção de cabeçalho ======= */
 .header{
     position: sticky;
@@ -164,6 +165,14 @@ section {
 }
 
 
+@keyframes fadeIn {
+    0% {
+        transform: translateY(3rem);
+        opacity: 0;
+    }
+}
+
+
 /* ======= Home Section/Seção inicial ======= */
 .home {
     padding: 0;
@@ -171,8 +180,45 @@ section {
 
     .slide {
         display: flex;
-        min-height: 70vh;
+        min-height: 60vh;
         padding: 2rem 7%;
+        background-size: cover !important;
+        background-position: center !important;
+        display: flex;
+        align-items: center;
+        display: none;
+
+        &.active {
+            display: flex;
+        }
+
+        .content {
+
+            span {
+                color: $black;
+                display: block;
+                font-size: 2rem;
+                animation: fadeIn .4s linear .2s backwards;
+            }
+
+            h3 {
+                color: $black;
+                text-transform: uppercase;
+                padding: 1rem 0;
+                font-size: 6rem;
+                animation: fadeIn .4s linear .4s backwards;
+            }
+
+            .btn {
+                animation: fadeIn .4s linear .6s backwards;
+            }
+        }
+    }
+
+    #next-slide,
+    #prev-slide {
+        position: absolute;
+        bottom: 2rem;
     }
 }
 
