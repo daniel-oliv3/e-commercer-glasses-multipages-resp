@@ -164,8 +164,17 @@ section {
 }
 
 
+/* ======= Home Section/Seção inicial ======= */
+.home {
+    padding: 0;
+    position: relative;
 
-
+    .slide {
+        display: flex;
+        min-height: 70vh;
+        padding: 2rem 7%;
+    }
+}
 
 
 

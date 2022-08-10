@@ -134,6 +134,17 @@ section {
   display: none;
 }
 
+/* ======= Home Section/Seção inicial ======= */
+.home {
+  padding: 0;
+  position: relative;
+}
+.home .slide {
+  display: flex;
+  min-height: 70vh;
+  padding: 2rem 7%;
+}
+
 /* ======= Footer Section/Seção de rodapé ======= */
 .footer .box-container {
   display: grid;
