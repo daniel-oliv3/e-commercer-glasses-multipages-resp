@@ -32,6 +32,10 @@ html {
     overflow-x: hidden;
 }
 
+section {
+    padding: 2rem 9%;
+}
+
 
 /* ======= Header Section/Seção de cabeçalho ======= */
 .header{
@@ -150,41 +154,33 @@ html {
 
 
 
+/* ======= Footer Section/Seção de rodapé ======= */
+.footer {
 
+    .box-container {
+        @include grid(25rem);
 
+        .box {
 
+            h3 {
+                font-size: 2.2rem;
+                color: $black;
+                padding: 1rem 0;
+            }
 
+            a {
+                display: block;
+                font-size: 1.4rem;
+                color: $light-color;
+                padding: 1rem 0;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                i {
+                    color: $pink;
+                }
+            }
+        }
+    }
+}
 
 
 
@@ -208,6 +204,10 @@ html {
 
     .header {
         padding: 0 2rem;
+    }
+
+    section {
+        padding: 2rem;
     }
 }
 
