@@ -219,6 +219,26 @@ section {
     #prev-slide {
         position: absolute;
         bottom: 2rem;
+        right: 2rem;
+        height: 6rem;
+        width: 6rem;
+        line-height: 5.5rem;
+        font-size: 4rem;
+        color: $black;
+        border: $border;
+        background: $white;
+        border-radius: .5rem;
+        text-align: center;
+        cursor: pointer;
+
+        &:hover {
+            background: $black;
+            color: $white;
+        }
+    }
+
+    #prev-slide {
+        right: 9rem;
     }
 }
 

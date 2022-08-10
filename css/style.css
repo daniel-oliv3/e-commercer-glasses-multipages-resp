@@ -178,6 +178,25 @@ section {
 .home #prev-slide {
   position: absolute;
   bottom: 2rem;
+  right: 2rem;
+  height: 6rem;
+  width: 6rem;
+  line-height: 5.5rem;
+  font-size: 4rem;
+  color: #333;
+  border: 0.2rem solid #333;
+  background: #fff;
+  border-radius: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+.home #next-slide:hover,
+.home #prev-slide:hover {
+  background: #333;
+  color: #fff;
+}
+.home #prev-slide {
+  right: 9rem;
 }
 
 /* ======= Footer Section/Seção de rodapé ======= */
