@@ -135,8 +135,15 @@ section {
   color: #666;
   padding: 1rem 0;
 }
+.footer .box-container .box a:hover {
+  color: #e84393;
+}
+.footer .box-container .box a:hover i {
+  padding-right: 2rem;
+}
 .footer .box-container .box a i {
   color: #e84393;
+  padding-right: 0.5rem;
 }
 
 /*Media queries Responsividade*/

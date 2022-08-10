@@ -174,8 +174,17 @@ section {
                 color: $light-color;
                 padding: 1rem 0;
 
+                &:hover {
+                    color: $pink;
+
+                    i {
+                        padding-right: 2rem;
+                    }
+                }
+
                 i {
                     color: $pink;
+                    padding-right: .5rem;
                 }
             }
         }
