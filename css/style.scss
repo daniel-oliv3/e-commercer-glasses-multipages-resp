@@ -50,6 +50,13 @@ section {
         color: $white;
         padding-top: .7rem;
         font-size: 1.7rem;
+
+        a {
+
+            &:hover {
+                color: $black;
+            }
+        }
     }
 }
 

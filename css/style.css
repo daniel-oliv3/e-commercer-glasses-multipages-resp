@@ -36,6 +36,9 @@ section {
   padding-top: 0.7rem;
   font-size: 1.7rem;
 }
+.heading p a:hover {
+  color: #333;
+}
 
 .btn {
   display: inline-block;
