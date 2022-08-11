@@ -36,6 +36,9 @@ section {
   padding-top: 0.7rem;
   font-size: 1.7rem;
 }
+.heading p a {
+  color: #fff;
+}
 .heading p a:hover {
   color: #333;
 }
@@ -331,6 +334,7 @@ section {
 .products .box-container .box .content .price span {
   font-size: 1.5rem;
   text-decoration: line-through;
+  color: #666;
 }
 
 /* ======= Footer Section/Seção de rodapé ======= */

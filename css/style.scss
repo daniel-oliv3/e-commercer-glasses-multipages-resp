@@ -52,6 +52,7 @@ section {
         font-size: 1.7rem;
 
         a {
+            color: $white;
 
             &:hover {
                 color: $black;
@@ -396,6 +397,7 @@ section {
                 span {
                     font-size: 1.5rem;
                     text-decoration: line-through;
+                    color: $light-color
                 }
             }
         }
