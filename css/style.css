@@ -22,6 +22,21 @@ section {
   padding: 2rem 9%;
 }
 
+.heading {
+  text-align: center;
+  background: #e84393;
+}
+.heading h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.heading p {
+  color: #fff;
+  padding-top: 0.7rem;
+  font-size: 1.7rem;
+}
+
 .btn {
   display: inline-block;
   margin-top: 1rem;

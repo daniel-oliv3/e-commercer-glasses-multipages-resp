@@ -36,6 +36,23 @@ section {
     padding: 2rem 9%;
 }
 
+.heading {
+    text-align: center;
+    background: $pink;
+
+    h1 {
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: $white;
+    }
+
+    p {
+        color: $white;
+        padding-top: .7rem;
+        font-size: 1.7rem;
+    }
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
