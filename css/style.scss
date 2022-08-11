@@ -60,6 +60,14 @@ section {
     }
 }
 
+.title {
+    font-size: 3rem;
+    color: $black;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -312,6 +320,79 @@ section {
         }
     }
 }
+
+
+
+/* ======= Products Section/Seção de produtos ======= */
+.products .box-container {
+    @include grid(32rem);
+
+    .box {
+        border-radius: .5rem;
+        text-align: center;
+        border: $border;
+
+        .image {
+            border-radius: .5rem;
+            overflow: hidden;
+            position: relative;
+            height: 25rem;
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ======= Footer Section/Seção de rodapé ======= */

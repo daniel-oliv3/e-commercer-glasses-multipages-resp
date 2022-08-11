@@ -40,6 +40,14 @@ section {
   color: #333;
 }
 
+.title {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -255,6 +263,30 @@ section {
 .banner .box .content .btn {
   padding: 0.6rem 2rem;
   font-size: 1.5rem;
+}
+
+/* ======= Products Section/Seção de produtos ======= */
+.products .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  gap: 1.5rem;
+}
+.products .box-container .box {
+  border-radius: 0.5rem;
+  text-align: center;
+  border: 0.2rem solid #333;
+}
+.products .box-container .box .image {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+  height: 25rem;
+  width: 100%;
+}
+.products .box-container .box .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* ======= Footer Section/Seção de rodapé ======= */
