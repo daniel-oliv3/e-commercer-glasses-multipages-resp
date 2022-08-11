@@ -276,6 +276,9 @@ section {
   text-align: center;
   border: 0.2rem solid #333;
 }
+.products .box-container .box:hover .image .icons {
+  transform: translateY(0);
+}
 .products .box-container .box .image {
   border-radius: 0.5rem;
   overflow: hidden;
@@ -283,10 +286,51 @@ section {
   height: 25rem;
   width: 100%;
 }
+.products .box-container .box .image .icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 0.2rem solid #333;
+  transform: translateY(-7rem);
+}
+.products .box-container .box .image .icons a {
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: #333;
+}
+.products .box-container .box .image .icons a:hover {
+  background: #333;
+  color: #fff;
+}
 .products .box-container .box .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.products .box-container .box .content {
+  padding: 1.5rem 0;
+}
+.products .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #333;
+}
+.products .box-container .box .content .stars {
+  padding: 1rem 0;
+}
+.products .box-container .box .content .stars i {
+  font-size: 1.4rem;
+  color: #e84393;
+}
+.products .box-container .box .content .price {
+  font-size: 2.2rem;
+  color: #333;
+}
+.products .box-container .box .content .price span {
+  font-size: 1.5rem;
+  text-decoration: line-through;
 }
 
 /* ======= Footer Section/Seção de rodapé ======= */

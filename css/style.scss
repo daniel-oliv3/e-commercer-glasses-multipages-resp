@@ -332,6 +332,10 @@ section {
         text-align: center;
         border: $border;
 
+        &:hover .image .icons {
+            transform: translateY(0);
+        }
+
         .image {
             border-radius: .5rem;
             overflow: hidden;
@@ -339,10 +343,60 @@ section {
             height: 25rem;
             width: 100%;
 
+            .icons {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                border-bottom: $border;
+                transform: translateY(-7rem);
+
+                a {
+                    width: 5rem;
+                    height: 5rem;
+                    line-height: 5rem;
+                    font-size: 2rem;
+                    color: $black;
+
+                    &:hover {
+                        background: $black;
+                        color: $white;
+                    }
+                }
+            }
+
             img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+            }
+        }
+
+        .content {
+            padding: 1.5rem 0;
+
+            h3 {
+                font-size: 2rem;
+                color: $black;
+            }
+
+            .stars {
+                padding: 1rem 0;
+
+                i {
+                    font-size: 1.4rem;
+                    color: $pink;
+                }
+            }
+
+            .price {
+                font-size: 2.2rem;
+                color: $black;
+
+                span {
+                    font-size: 1.5rem;
+                    text-decoration: line-through;
+                }
             }
         }
     }
