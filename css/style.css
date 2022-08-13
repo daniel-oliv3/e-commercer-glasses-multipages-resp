@@ -390,6 +390,13 @@ section {
   display: flex;
   border-radius: 0.5rem;
   background: #eee;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  gap: 1rem;
+}
+.login-form form .inpuBox span,
+.register-form form .inpuBox span {
+  color: #e84393;
 }
 
 /* ======= Footer Section/Seção de rodapé ======= */

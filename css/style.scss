@@ -473,6 +473,13 @@ section {
             display: flex;
             border-radius: .5rem;
             background: $light-bg;
+            padding: .5rem 1rem;
+            align-items: center;
+            gap: 1rem;
+
+            span {
+                color: $pink;
+            }
         }
     }
 }
