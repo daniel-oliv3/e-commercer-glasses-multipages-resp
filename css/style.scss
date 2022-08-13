@@ -420,6 +420,21 @@ section {
             padding: 2rem;
             border-radius: .5rem;
             border: $border;
+
+            .box, textarea {
+                width: 100%;
+                border-bottom: $border;
+                margin-bottom: 1rem;
+                padding: 1rem 0;
+                font-size: 1.6rem;
+                color: $light-color;
+                text-transform: none;
+            }
+
+            textarea {
+                height: 15rem;
+                resize: none;
+            }
         }
 
         .map {

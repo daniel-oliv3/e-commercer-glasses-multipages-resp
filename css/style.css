@@ -349,6 +349,19 @@ section {
   border-radius: 0.5rem;
   border: 0.2rem solid #333;
 }
+.contact .row form .box, .contact .row form textarea {
+  width: 100%;
+  border-bottom: 0.2rem solid #333;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  color: #666;
+  text-transform: none;
+}
+.contact .row form textarea {
+  height: 15rem;
+  resize: none;
+}
 .contact .row .map {
   flex: 1 1 42rem;
   border-radius: 0.5rem;
