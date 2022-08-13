@@ -66,7 +66,7 @@ section {
     color: $black;
     margin-bottom: 2rem;
     text-align: center;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 .btn {
@@ -405,7 +405,30 @@ section {
 }
 
 
+/* ======= Contact Section/Seção de contato ======= */
+.contact {
 
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+
+        form {
+            flex: 1 1 42rem;
+            padding: 2rem;
+            border-radius: .5rem;
+            border: $border;
+        }
+
+        .map {
+            flex: 1 1 42rem;
+            border-radius: .5rem;
+            width: 100%;
+        }
+    }
+}
 
 
 

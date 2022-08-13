@@ -48,7 +48,7 @@ section {
   color: #333;
   margin-bottom: 2rem;
   text-align: center;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 .btn {
@@ -335,6 +335,24 @@ section {
   font-size: 1.5rem;
   text-decoration: line-through;
   color: #666;
+}
+
+/* ======= Contact Section/Seção de contato ======= */
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.contact .row form {
+  flex: 1 1 42rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid #333;
+}
+.contact .row .map {
+  flex: 1 1 42rem;
+  border-radius: 0.5rem;
+  width: 100%;
 }
 
 /* ======= Footer Section/Seção de rodapé ======= */
