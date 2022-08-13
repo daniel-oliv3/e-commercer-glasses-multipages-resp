@@ -368,6 +368,30 @@ section {
   width: 100%;
 }
 
+/* ======= Login Form, Register Form/Formulário de login, Formulário de registro ======= */
+.login-form form,
+.register-form form {
+  margin: 1rem auto;
+  max-width: 40rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid #333;
+  padding: 2rem;
+  text-align: center;
+}
+.login-form form h3,
+.register-form form h3 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  color: #333;
+}
+.login-form form .inpuBox,
+.register-form form .inpuBox {
+  margin: 1rem 0;
+  display: flex;
+  border-radius: 0.5rem;
+  background: #eee;
+}
+
 /* ======= Footer Section/Seção de rodapé ======= */
 .footer .box-container {
   display: grid;

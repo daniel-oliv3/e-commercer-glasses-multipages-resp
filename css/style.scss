@@ -450,10 +450,32 @@ section {
 
 
 
+/* ======= Login Form, Register Form/Formulário de login, Formulário de registro ======= */
+.login-form,
+.register-form {
 
+    form {
+        margin: 1rem auto;
+        max-width: 40rem;
+        border-radius: .5rem;
+        border: $border;
+        padding: 2rem;
+        text-align: center;
 
+        h3 {
+            font-size: 2.2rem;
+            text-transform: uppercase;
+            color: $black;
+        }
 
-
+        .inpuBox {
+            margin: 1rem 0;
+            display: flex;
+            border-radius: .5rem;
+            background: $light-bg;
+        }
+    }
+}
 
 
 
