@@ -680,7 +680,23 @@ section {
 
 
 /* ======= Shopping Cart Section/Seção de Carrinho de compras ======= */
+.shopping-cart {
 
+    .box-container {
+        @include grid(31rem);
+
+        .box {
+            border-radius: .5rem;
+            border: $border;
+            padding: 3rem 2rem;
+            position: relative;
+
+            .fa-times {
+                position: relative;
+            }
+        }
+    }
+}
 
 
 

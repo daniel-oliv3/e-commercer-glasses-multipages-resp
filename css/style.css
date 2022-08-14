@@ -565,6 +565,21 @@ section {
 }
 
 /* ======= Shopping Cart Section/Seção de Carrinho de compras ======= */
+.shopping-cart .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 1.5rem;
+}
+.shopping-cart .box-container .box {
+  border-radius: 0.5rem;
+  border: 0.2rem solid #333;
+  padding: 3rem 2rem;
+  position: relative;
+}
+.shopping-cart .box-container .box .fa-times {
+  position: relative;
+}
+
 /* ======= Footer Section/Seção de rodapé ======= */
 .footer .box-container {
   display: grid;
