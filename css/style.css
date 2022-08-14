@@ -517,6 +517,37 @@ section {
   overflow: hidden;
   border: 0.2rem solid #333;
 }
+.blogs .box-container .box .image {
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+}
+.blogs .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.blogs .box-container .box .content {
+  padding: 2rem;
+}
+.blogs .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #333;
+  line-height: 2;
+}
+.blogs .box-container .box .content p {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  color: #666;
+  padding: 1rem 0;
+}
+.blogs .box-container .box .content .icons {
+  border-top: 0.2rem solid #333;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
 
 /* ======= Footer Section/Seção de rodapé ======= */
 .footer .box-container {
