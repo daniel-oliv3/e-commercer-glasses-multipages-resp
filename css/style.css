@@ -383,6 +383,7 @@ section {
   font-size: 2.2rem;
   text-transform: uppercase;
   color: #333;
+  margin-bottom: 0.7rem;
 }
 .login-form form .inpuBox,
 .register-form form .inpuBox {
@@ -406,6 +407,45 @@ section {
   padding: 1rem;
   background: none;
   font-size: 1.5rem;
+  color: #666;
+  text-transform: none;
+}
+.login-form form .flex,
+.register-form form .flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+.login-form form .flex label,
+.register-form form .flex label {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+}
+.login-form form .flex a,
+.register-form form .flex a {
+  font-size: 1.5rem;
+  color: #666;
+  margin-left: auto;
+}
+.login-form form .flex a:hover,
+.register-form form .flex a:hover {
+  color: #e84393;
+}
+.login-form form input[type=submit],
+.register-form form input[type=submit] {
+  background: #333;
+  color: #fff;
+}
+.login-form form input[type=submit]:hover,
+.register-form form input[type=submit]:hover {
+  background: #e84393;
+}
+.login-form form .btn,
+.register-form form .btn {
+  width: 100%;
 }
 
 /* ======= Footer Section/Seção de rodapé ======= */
