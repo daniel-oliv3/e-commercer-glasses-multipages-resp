@@ -684,22 +684,47 @@ section {
 
     .box-container {
         @include grid(31rem);
+        margin-bottom: 2rem;
 
         .box {
             border-radius: .5rem;
             border: $border;
             padding: 3rem 2rem;
             position: relative;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
 
             .fa-times {
                 position: absolute;
                 top: 1rem;
                 right: 1.5rem;
+                font-size: 2.5rem;
                 cursor: pointer;
                 color: $light-color;
 
                 &:hover {
                     color: $pink;
+                }
+            }
+
+            img {
+                height: 10rem;
+            }
+
+            .content {
+
+                h3 {
+                    font-size: 1.7rem;
+                    padding-bottom: .5rem;
+                    color: $black;
+                }
+
+                form {
+                    display: flex;
+                    align-items: center;
+                    gap: .5rem;
+                    padding: 1rem 0;
                 }
             }
         }
