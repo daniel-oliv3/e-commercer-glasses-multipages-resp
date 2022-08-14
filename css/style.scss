@@ -573,6 +573,41 @@ section {
             }
         }
     }
+
+    .icons-container {
+        @include grid(16rem);
+        margin-top: 2.5rem;
+
+        .icons {
+            padding: 3rem 2rem;
+            border-radius: .5rem;
+            border: $border;
+            text-align: center;
+            cursor: pointer;
+
+            &:hover {
+                background: $black;
+                
+
+                img {
+                    filter: invert(1);
+                }
+
+                h3 {
+                    color: $white;
+                }
+            }
+
+            img {
+                height: 7rem;
+            }
+
+            h3 {
+                font-size: 1.7rem;
+                color: $black;
+            }
+        }
+    }
 }
 
 

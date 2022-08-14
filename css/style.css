@@ -476,6 +476,35 @@ section {
   color: #666;
   padding: 1rem 0;
 }
+.about .icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+.about .icons-container .icons {
+  padding: 3rem 2rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid #333;
+  text-align: center;
+  cursor: pointer;
+}
+.about .icons-container .icons:hover {
+  background: #333;
+}
+.about .icons-container .icons:hover img {
+  filter: invert(1);
+}
+.about .icons-container .icons:hover h3 {
+  color: #fff;
+}
+.about .icons-container .icons img {
+  height: 7rem;
+}
+.about .icons-container .icons h3 {
+  font-size: 1.7rem;
+  color: #333;
+}
 
 /* ======= Footer Section/Seção de rodapé ======= */
 .footer .box-container {
