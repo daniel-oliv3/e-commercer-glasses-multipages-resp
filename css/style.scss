@@ -692,7 +692,15 @@ section {
             position: relative;
 
             .fa-times {
-                position: relative;
+                position: absolute;
+                top: 1rem;
+                right: 1.5rem;
+                cursor: pointer;
+                color: $light-color;
+
+                &:hover {
+                    color: $pink;
+                }
             }
         }
     }

@@ -577,7 +577,14 @@ section {
   position: relative;
 }
 .shopping-cart .box-container .box .fa-times {
-  position: relative;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  cursor: pointer;
+  color: #666;
+}
+.shopping-cart .box-container .box .fa-times:hover {
+  color: #e84393;
 }
 
 /* ======= Footer Section/Seção de rodapé ======= */
