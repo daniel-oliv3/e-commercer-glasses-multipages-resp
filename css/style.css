@@ -448,6 +448,35 @@ section {
   width: 100%;
 }
 
+/* ======= About Section/Seção Sobre nós ======= */
+.about .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.about .row .image {
+  flex: 1 1 42rem;
+}
+.about .row .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.about .row .content {
+  flex: 1 1 42rem;
+}
+.about .row .content h3 {
+  font-size: 3.4rem;
+  color: #333;
+  line-height: 2;
+}
+.about .row .content p {
+  font-size: 1.4rem;
+  line-height: 2.5;
+  color: #666;
+  padding: 1rem 0;
+}
+
 /* ======= Footer Section/Seção de rodapé ======= */
 .footer .box-container {
   display: grid;
