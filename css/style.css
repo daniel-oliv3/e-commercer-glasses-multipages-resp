@@ -396,7 +396,16 @@ section {
 }
 .login-form form .inpuBox span,
 .register-form form .inpuBox span {
-  color: #e84393;
+  color: #666;
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+.login-form form .inpuBox input,
+.register-form form .inpuBox input {
+  width: 100%;
+  padding: 1rem;
+  background: none;
+  font-size: 1.5rem;
 }
 
 /* ======= Footer Section/Seção de rodapé ======= */

@@ -478,7 +478,16 @@ section {
             gap: 1rem;
 
             span {
-                color: $pink;
+                color: $light-color;
+                margin-left: 1rem;
+                font-size: 2rem;
+            }
+
+            input {
+                width: 100%;
+                padding: 1rem;
+                background: none;
+                font-size: 1.5rem;
             }
         }
     }
@@ -581,7 +590,7 @@ section {
 
         span {
             color: $pink;
-        }
+        }      
     }
 }
 
