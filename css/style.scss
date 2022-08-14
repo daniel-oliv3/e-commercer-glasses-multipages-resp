@@ -611,8 +611,16 @@ section {
 }
 
 
+/* ======= Blogs Section/Seção de blogs ======= */
+.blogs .box-container {
+    @include grid(32rem);
 
-
+    .box {
+        border-radius: .5rem;
+        overflow: hidden;
+        border: $border;
+    }
+}
 
 
 

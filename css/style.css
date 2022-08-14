@@ -506,6 +506,18 @@ section {
   color: #333;
 }
 
+/* ======= Blogs Section/Seção de blogs ======= */
+.blogs .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  gap: 1.5rem;
+}
+.blogs .box-container .box {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 0.2rem solid #333;
+}
+
 /* ======= Footer Section/Seção de rodapé ======= */
 .footer .box-container {
   display: grid;
